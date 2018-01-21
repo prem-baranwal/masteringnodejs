@@ -1,0 +1,17 @@
+{
+  "name": "routestest21jan17",
+  "version": "1.0.0",
+  "description": "First Node Server Route",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "route"
+  ],
+  "author": "callprem26@yahoo.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
