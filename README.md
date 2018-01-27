@@ -1,1 +1,1 @@
-# This is the repository created for testing Node.js related projectss
+# This repository is for testing Node.js related projects

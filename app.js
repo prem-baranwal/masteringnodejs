@@ -1,15 +1,6 @@
 
-//var http = require('http');
 var express = require('express');
 var app = express();
-
-// var server = http.createServer(function(req, res) {
-// 	console.log("received request");
-// 	res.writeHead(200, {'Content-type':'text/html'});
-// 	res.end('<h1>Login Successful !!</h1> \
-// 		<button type="submit" name="submit">Commit</button>\
-// 		');
-// });
 
 app.get('/', function(req, res) {
 	res.sendFile(__dirname+'/index.html');
@@ -23,12 +14,11 @@ app.get('/Candidates', function(req, res) {
 			]);
 });
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8080; //for Heroku
 
 var server = app.listen(port, function(req, res) {
 	console.log("Visit the URL http://localhost:"+port);
 });
 
-//server.listen(port);
 
 console.log("Server(Express) started on port %s", port);
